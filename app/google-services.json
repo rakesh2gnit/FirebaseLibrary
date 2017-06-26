@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "794075760546",
+    "firebase_url": "https://fir-library-cbe1d.firebaseio.com",
+    "project_id": "fir-library-cbe1d",
+    "storage_bucket": "fir-library-cbe1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794075760546:android:10fda140187e24b8",
+        "android_client_info": {
+          "package_name": "com.rakesh.myapp.firebaselibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794075760546-q8jcko9toe322oeg26b7v76gktkst97t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC90K7c41xLhC8eYUZGyBuGOpiWZs9GKw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.rnyoo.firebaselibrary.MainActivity">
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"/>
+
+    <TextView
+        android:id="@+id/txt_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status" />
+
+    <TextView
+        android:id="@+id/txt_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detail" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/button_facebook_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_facebook_signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:visibility="gone"/>
+
+</LinearLayout>
